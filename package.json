@@ -1,5 +1,5 @@
 {
-  "name": "mnk",
+  "name": "mdmnks",
   "version": "0.0.1",
   "dependencies": {
     "jquery": "~2.2.0",
@@ -78,6 +78,7 @@
       "modules": "_modules",
       "layouts": "_layouts",
       "images": "_images",
+      "fonts": "_fonts",
       "styles": "_styles",
       "scripts": "_scripts",
       "data": "_data"
