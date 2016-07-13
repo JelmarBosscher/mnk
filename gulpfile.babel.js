@@ -51,6 +51,7 @@ gulp.task('build', [
   'imagemin',
   'jade',
   'sass',
+  'sass',
   'browserify'
 ]);
 

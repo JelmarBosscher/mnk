@@ -1,0 +1,38 @@
+footer{
+
+  color: $light;
+
+  .controls {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      list-style-type: none;
+      border: 2px dotted $light;
+      border-right: 0;
+
+      li {
+        position: relative;
+        display: inline-block;
+        padding: 5px 8px;
+        border-right: 2px dotted $light;
+
+        &.active {
+          &:after {
+            content: "";
+            position: absolute;
+            top: 3px; bottom: 3px;
+            left: 3px; right: 3px;
+            background-color: $light;
+          }
+        }
+      }
+    }
+  }
+
+}

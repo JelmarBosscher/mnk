@@ -14,6 +14,12 @@ export default function(gulp, plugins, args, config, taskTarget, browserSync) {
         path.join(dirs.source, dirs.modules, '**/*.{scss,sass}')
       ], ['sass']);
 
+      // Font
+      gulp.watch([
+        path.join(dirs.source, dirs.styles, '**/fonts/*.{eot,svg,ttf,woff}'),
+        path.join(dirs.source, dirs.modules, '**/fonts/*.{eot,svg,ttf,woff}')
+      ], ['fonts']);
+
       // Jade Templates
       gulp.watch([
         path.join(dirs.source, '**/*.jade'),
